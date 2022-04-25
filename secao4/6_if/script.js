@@ -12,3 +12,9 @@ let passaporte = true;
 if((nome == 'Luciano' && idade > 30) || passaporte == true){
     console.log('Liberado!');
 }
+
+if(nome == 'Lucas'){
+    console.log('Seu Nome é Luciano');
+}else{
+    console.log('O seu nome não é Luciano')
+}
