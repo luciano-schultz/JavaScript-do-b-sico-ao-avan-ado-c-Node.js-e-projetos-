@@ -6,6 +6,10 @@ let pessoa = {
         console.log('Ola');
     }
 }
+
+pessoa.experiencia = true;
+delete pessoa.idade;
+console.log(pessoa.experiencia);
 console.log(pessoa.nome);
 console.log(pessoa.idade);
 pessoa.programar();
