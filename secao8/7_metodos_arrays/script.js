@@ -17,3 +17,7 @@ console.log(pessoas.slice(2,3));
 pessoas.forEach(pessoa => {
     console.log(pessoa);
 });
+
+let carros = ['BMW', 'Fiat', 'Audi'];
+console.log(carros.includes('Fiat'));
+console.log(carros.reverse());
