@@ -8,7 +8,7 @@ console.log(pessoas);
 pessoas.shift();
 pessoas.unshift('Schultz');
 console.log(pessoas);
-
-*/
 console.log(pessoas.indexOf('Thalis'));
 console.log(pessoas.lastIndexOf('Leticia'));
+*/
+console.log(pessoas.slice(2,3));
