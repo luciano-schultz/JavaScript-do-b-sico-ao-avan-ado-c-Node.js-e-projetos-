@@ -1,15 +1,7 @@
-let obj = {
-    rodas: 4,
-    portas: 4,
-    tetosolar: true,
-    motor: '2.0'
+let pessoa = {
+    "nome": "Luciano",
+    "idade": 23
 }
 
-const {rodas: vRodas, portas: vPortas, tetosolar: vTetoSolar, motor: vMotor} = obj;
-console.log(vRodas);
-console.log(vPortas);
-
-let nome = ['Luciano', 'leticia', 'Schultz'];
-
-let [nomeA, nomeB, nomeC] = nome;
-console.log(nomeA);
+console.log(pessoa.nome);
+console.log(pessoa.idade);
