@@ -1,0 +1,13 @@
+let onibus ={
+    rodas: 8,
+    passageiros: 40,
+    porta: 2
+}
+
+delete onibus.rodas;
+
+console.log(onibus.rodas);
+
+onibus.janelas = 20;
+
+console.log(onibus);
